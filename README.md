@@ -55,7 +55,8 @@
 
 ## 系統架構圖
 
-（放 PPT 的架構圖）
+<img width="1266" height="844" alt="image" src="https://github.com/user-attachments/assets/f765a90a-0260-44ab-bac2-4128a5950037" />
+
 
 ---
 
