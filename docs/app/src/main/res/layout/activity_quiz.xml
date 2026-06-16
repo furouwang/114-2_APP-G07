@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal"
+    android:background="#E8F5E9">
+
+    <TextView
+        android:id="@+id/tvHighScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🏆 歷史最高紀錄：0 分"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#2E7D32"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"/>
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="問題：觸摸野生海龜，依我國法律最高可罰款多少元？"
+        android:textSize="20sp"
+        android:textColor="#1B5E20"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btnOption1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="(A) 罰款 6 萬元"
+        android:textSize="16sp"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btnOption2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="(B) 罰款 30 萬元"
+        android:textSize="16sp"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btnQuizBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回主選單"
+        android:textColor="#2E7D32"
+        style="?android:attr/borderlessButtonStyle"/>
+
+</LinearLayout>

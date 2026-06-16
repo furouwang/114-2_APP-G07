@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal"
+    android:background="#FFF5F2"> <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="🚨 海上救難與求生通報系統"
+    android:textSize="22sp"
+    android:textStyle="bold"
+    android:textColor="#D84315"
+    android:layout_marginTop="30dp"
+    android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/btnSimulateSOS"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="💡 啟動模擬 SOS 燈號"
+        android:textSize="18sp"
+        android:backgroundTint="#FF5722"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnSurvivalTips"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="🎒 海上求生生存指南"
+        android:textSize="18sp"
+        android:backgroundTint="#FF5722"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnCall118"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="📞 撥打海巡署 118 通報"
+        android:textSize="18sp"
+        android:backgroundTint="#BF360C"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btnSurvivalBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回主選單"
+        android:textColor="#D84315"
+        style="?android:attr/borderlessButtonStyle"/>
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal"
+    android:background="#F4FBFB">
+
+    <TextView
+        android:id="@+id/tvEncyTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📖 海龜生態與救難百科全書"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#004D40"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/btnSubSpecies"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="🐢 1. 台灣常見五大海龜圖鑑"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#006666"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnSubKnowledge"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="💡 2. 海龜基本知識與保育"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#006666"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnSubRescue"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="🏥 3. 傷病海龜救助真實案例"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#006666"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btnEncyBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回主選單"
+        android:textSize="16sp"
+        android:textColor="#004D40"
+        style="?android:attr/borderlessButtonStyle"/>
+
+</LinearLayout>

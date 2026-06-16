@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal"
+    android:background="#F4FBFB">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🐢 全台野生海龜探險地圖"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#004D40"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id="@+id/btnGoMap"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="🗺️ 核心 1：全台賞龜地圖"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:backgroundTint="#006666"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btnGoEncyclopedia"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="📖 核心 2：海龜品種大點名"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:backgroundTint="#006666"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btnGoRules"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="⚖️ 核心 3：保育法律與檢舉指南"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:backgroundTint="#006666"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btnGoQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="🎮 核心 4：海龜守護者挑戰賽"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:backgroundTint="#006666"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/btnGoSOS"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="🚨 模組三：海上求生與救難通報"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:backgroundTint="#D84315"
+        android:layout_marginBottom="15dp"/>
+
+</LinearLayout>

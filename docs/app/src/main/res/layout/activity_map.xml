@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E0F7FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#E0F7FA">
+
+        <TextView
+            android:id="@+id/tvMapTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="🗺️ 台灣生態賞龜地圖與海流導覽"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#004D40"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/tvMapSubTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="( 請點擊各海域點位查看詳情與離岸流警示 )"
+            android:textSize="13sp"
+            android:textColor="#558B2F"
+            android:layout_marginTop="5dp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imgTaiwanMap"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/taiwan_map_bg"
+            android:scaleType="fitCenter"
+            android:alpha="0.8"
+            android:contentDescription="台灣生態地圖" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/btnSpotPenghu"
+                android:layout_width="120dp"
+                android:layout_height="70dp"
+                android:text="📍 澎湖群島"
+                android:backgroundTint="#00695C"
+                android:textColor="#FFFFFF"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="330dp"/>
+
+            <Button
+                android:id="@+id/btnSpotKenting"
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:text="📍 墾丁半島"
+                android:backgroundTint="#00695C"
+                android:textColor="#FFFFFF"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="50dp"/>
+
+            <Button
+                android:id="@+id/btnSpotShiauliuqiu"
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:text="🔥 📍 小琉球"
+                android:backgroundTint="#BF360C"
+                android:textColor="#FFFFFF"
+                android:layout_above="@id/btnSpotKenting"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="15dp"/>
+
+            <Button
+                android:id="@+id/btnSpotLudao"
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:text="📍 綠島"
+                android:backgroundTint="#00695C"
+                android:textColor="#FFFFFF"
+                android:layout_above="@+id/btnSpotLanyu"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/btnSpotLanyu"
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:text="📍 蘭嶼"
+                android:backgroundTint="#00695C"
+                android:textColor="#FFFFFF"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="110dp"/>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btnMapBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回主選單"
+            android:textColor="#004D40"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="5dp"
+            style="?android:attr/borderlessButtonStyle"/>
+    </FrameLayout>
+</LinearLayout>
