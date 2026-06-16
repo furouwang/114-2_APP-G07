@@ -54,6 +54,7 @@
 ## 系統架構
 
 本系統以 MainActivity 作為首頁 Dashboard，整合五大核心功能模組，並透過 Java Controller 處理資料與功能邏輯。
+<img width="864" height="576" alt="image" src="https://github.com/user-attachments/assets/60851398-c51d-41d0-af47-768b38448fa6" />
 
 ---
 
